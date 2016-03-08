@@ -13,3 +13,4 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: $WERCKER_SOURCE_DIR/hugo/public
+        domain: blog.oro.nu
