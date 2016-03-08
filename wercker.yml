@@ -4,4 +4,4 @@ build:
     - arjen/hugo-build:
         version: "0.14"
         theme: blackburn
-        flags: --buildDrafts=true
+        flags: --buildDrafts=true --source=hugo/
