@@ -1,0 +1,27 @@
+---
+baseurl: "http://replace-this-with-your-hugo-site.com/"
+languageCode: en-us
+title:
+
+menu:
+  main:
+      - name: Home
+        pre: "<i class='fa fa-home fa-fw'></i>"
+        weight: 0
+        identifier: home
+        url: "/"
+      - name: Posts
+        pre: "<i class='fa fa-list fa-fw'></i>"
+        weight: 1
+        identifier: post
+        url: "/post/"
+      - name: About
+        pre: "<i class='fa fa-user fa-fw'></i>"
+        weight: 2
+        identifier: about
+        url: "/about/"
+
+social:
+  twitter: oro_nu
+  github: oro
+  superuser: 36519 
