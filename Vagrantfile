@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
     vb.memory = "2048"
   end
 
-  config.vm.synced_folder "salt/roots/", "/srv/salt/"
+  config.vm.synced_folder "salt/roots/", "/srv/salt/", type: "rsync"
   config.vm.provision :salt do |salt|
     salt.minion_config = "salt/minion"
     salt.masterless = true
