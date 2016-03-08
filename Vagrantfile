@@ -7,9 +7,10 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "2048"
   end
-
   config.vm.synced_folder "salt/roots/", "/srv/salt/", type: "rsync"
-  config.vm.provision :salt do |salt|
+  config.vm.synced_folder "hugo/", "/var/hugo", type: "rsync",
+    rsync__exclude: [".git/", ".vagrant"]
+  config.vm.provision :salt , run: "always"do |salt|
     salt.minion_config = "salt/minion"
     salt.masterless = true
     salt.run_highstate = true
