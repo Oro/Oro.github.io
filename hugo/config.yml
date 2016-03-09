@@ -3,6 +3,8 @@ baseurl: "http://blog.oro.nu/"
 languageCode: en-us
 title:
 
+params:
+  highlightjs: monokai
 menu:
   main:
       - name: Home
