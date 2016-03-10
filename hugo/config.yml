@@ -5,6 +5,7 @@ title:
 
 params:
   highlightjs: monokai
+  googleAnalytics: "UA-74961946-1"
 menu:
   main:
       - name: Home
