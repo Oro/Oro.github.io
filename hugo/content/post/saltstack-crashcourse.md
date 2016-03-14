@@ -13,6 +13,7 @@ It allows you to manage thousands of servers (or just one) from a central locati
 
 This post will help you getting started with several VMs you can use to get to know SaltStack.
 After you've followed these instructions, you will get one Salt Master and 2 Salt Minions on which you can execute your commands.
+<!--more-->
 
 ## Prerequisites
 - [Vagrant](https://www.vagrantup.com/)
