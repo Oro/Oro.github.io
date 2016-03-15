@@ -1,7 +1,7 @@
 ---
 baseurl: "http://blog.oro.nu/"
 languageCode: en-us
-title:
+title: "DevOps 101"
 
 params:
   highlightjs: monokai
