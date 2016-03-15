@@ -1,7 +1,7 @@
 ---
 date: "2016-03-11T13:42:02Z"
 draft: false
-title: SaltStack Crashcourse
+title: SaltStack Crash Course
 tags:
   - SaltStack
   - Vagrant
@@ -58,7 +58,7 @@ salt '*' test.ping
 
 ## Salt State Modules
 SaltStack files are written (per default) in [YAML](https://docs.saltstack.com/en/latest/topics/yaml/).  
-The top.sls for state modules consists of 3 elements and is used to target specific minions with specific states.
+The `top.sls` for state modules consists of 3 elements and is used to target specific minions with specific states.
 ```
 # salt/roots/top.sls
 base:                      # Environment
@@ -95,4 +95,4 @@ salt '*' state.apply
 ## Further Reading
 If you want to know more, I recommend the excellent [SaltStack Tutorials](https://docs.saltstack.com/en/latest/topics/tutorials/index.html), which goes far more in-depth.
 
-[^1]: Generated with https://github.com/vain/explain
+[^1]: Generated with [explain](https://github.com/vain/explain)
