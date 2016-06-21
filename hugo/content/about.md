@@ -1,7 +1,7 @@
 ---
 date: "2016-03-08T12:50:57Z"
 draft: false
-title: "Marco Orovecchia"
+title: "Marco 'Oro' Orovecchia"
 
 ---
 
