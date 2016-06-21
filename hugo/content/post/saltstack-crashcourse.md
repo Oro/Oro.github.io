@@ -5,6 +5,7 @@ title: SaltStack Crash Course
 tags:
   - SaltStack
   - Vagrant
+  - Crash Course
 ---
 
 ## What is SaltStack?
