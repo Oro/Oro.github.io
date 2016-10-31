@@ -12,4 +12,5 @@ Vagrant.configure(2) do |config|
     salt.masterless = true
     salt.run_highstate = true
   end
+  config.vm.post_up_message = "Hugo should now be available at http://172.17.0.100:1313"
 end
