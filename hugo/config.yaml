@@ -2,10 +2,10 @@
 baseurl: "http://blog.oro.nu/"
 languageCode: en-us
 title: "OroBlog"
+theme: "blackburn"
 
 params:
   highlightjs: monokai
-  googleAnalytics: "UA-74961946-1"
 menu:
   main:
       - name: Home
