@@ -8,6 +8,7 @@ tags:
   - HUGO
   - Wercker
 ---
+> Note: As of December 2017 this is no longer valid, I currently use Netlify to deploy this blog
 
 To setup this blog, I wanted to use something that is both easy to use via the terminal and caters to my preference for everything text-based.
 After some dabbling around with both Jekyll and Octopress, I decided to use Hugo mainly due to its LiveReload functionality and its extremely well written documentation.
