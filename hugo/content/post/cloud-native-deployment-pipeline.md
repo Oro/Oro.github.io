@@ -15,7 +15,7 @@ Bootstrapping an auto scaling web application within AWS via Kubernetes
 Let's create a state-of-the-art deployment pipeline for cloud native applications. In this guide, I'll be using Kubernetes on AWS to bootstrap a load-balanced, static-files only web application. This is serious overkill for such an application, however this will showcase several necessities when designing such a system for more sophisticated applications. This guide assumes you are using OSX. You also need to be familiar with both [homebrew](http://brew.sh/index.html) and AWS.
 
 At the end of this guide, we will have a Kubernetes cluster on which we will automatically deploy our application with each check in. This application will be load balanced (running in 2 containers) and health-checked. Aditionally, different branches will get different endpoints and not affect each other. 
-{{< fluid_img "/pipeline.gif" >}}
+{{< figure src="/img/post/pipeline.gif" alt="gif demonstrating automatic scaling of the cluster" >}}
 
 About the tools
 ---------------
