@@ -110,3 +110,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/oro
 
 ==================================================================
+==================================================================
+https://keybase.io/oro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://orovecchia.com
+  * I am oro (https://keybase.io/oro) on keybase.
+  * I have a public key ASD5XPelSKEpY0cA9ChB2hvGSaX1ZBeKON_4jpc6kReqywo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204740f801084dce5df622dbbf175fd0cb7e8c9c7ff94149ee35c124bfe92dfb540a",
+      "host": "keybase.io",
+      "kid": "0120f95cf7a548a129634700f42841da1bc649a5f564178a38dff88e973a9117aacb0a",
+      "uid": "dab41234953ddef39b5b7959edf61019",
+      "username": "oro"
+    },
+    "merkle_root": {
+      "ctime": 1531240826,
+      "hash": "16d615c3fa135ea9f6916483d8c2f7bd85fcffd99c69e6cdd500275fe8e72dba355138a3c053f08fea038a25035f61643ef356eb1690428329b95f0e32f1a381",
+      "hash_meta": "b2f67021e3432ebf51d370f2fb30088fefec51214d8f3b682778832b8f3e14c2",
+      "seqno": 3226218
+    },
+    "service": {
+      "entropy": "vWhLINSierBOj2zjI5GXu2ne",
+      "hostname": "orovecchia.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1531240859,
+  "expire_in": 504576000,
+  "prev": "a5dab493f5cdf1fa7cc3be055d977af5acf59b7bf1b321ffbb983ed6b4b61ed1",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+Vz3pUihKWNHAPQoQdobxkml9WQXijjf+I6XOpEXqssKp3BheWxvYWTESpcCGsQgpdq0k/XN8fp8w74FXZd69az1m3vxsyH/u5g+1rS2HtHEIEhBVtaUxekqDdExEjsUhppqesY28AxWEFb5n5mHyxSpAgHCo3NpZ8RAOFMkI0SolW+AKVbKMfsgimePC0VI449Wb4K8kzwdG9JNf9CsG2BQvn/hES0hFbtE33BP6MLt6ROcHOQJcsm9C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILNv+4B98TQk8xrbwqNU8eXrNmjK8/H9sc4nkdOqacuso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oro
+
+==================================================================
