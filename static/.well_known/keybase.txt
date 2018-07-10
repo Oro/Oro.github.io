@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/oro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://oro.nu
+  * I am oro (https://keybase.io/oro) on keybase.
+  * I have a public key ASD5XPelSKEpY0cA9ChB2hvGSaX1ZBeKON_4jpc6kReqywo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204740f801084dce5df622dbbf175fd0cb7e8c9c7ff94149ee35c124bfe92dfb540a",
+      "host": "keybase.io",
+      "kid": "0120f95cf7a548a129634700f42841da1bc649a5f564178a38dff88e973a9117aacb0a",
+      "uid": "dab41234953ddef39b5b7959edf61019",
+      "username": "oro"
+    },
+    "merkle_root": {
+      "ctime": 1531239439,
+      "hash": "89dea4b5ba3891833f7278fe5a6b72fbe03f4d6878d81f100d180195f60076c4fa7c0cc0d357ab608968193c2164c2d60cddd3aadea51379d0b9d1cfaae0ff96",
+      "hash_meta": "07d227929553050c28f94ed1feeed95387a08fc9ff6cf09a199a26ea30a99a3c",
+      "seqno": 3226075
+    },
+    "service": {
+      "entropy": "ZErpYKt0yIoxCNGKcKGSegXZ",
+      "hostname": "oro.nu",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1531239687,
+  "expire_in": 504576000,
+  "prev": "91e981612a7e60a90f4850295bf2eda288b959faf5529f7d8e734d349626d445",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+Vz3pUihKWNHAPQoQdobxkml9WQXijjf+I6XOpEXqssKp3BheWxvYWTESpcCGMQgkemBYSp+YKkPSFApW/Ltooi5Wfr1Up99jnNNNJYm1EXEIJvU5KzfYwYDBjIZ7USG411S5PgBzgOgZvPY9FDXJ5l/AgHCo3NpZ8RAEz52WHLGFQuRgrFesPmY2is28fI2WngXvtgD+nWFluFNm4dZyNVhNZlmKVuyAJub0ULuLjJGnWX+SY149og9DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE1j3RA/leajmGMH1tKeOVtGQQUMzMOpW++/62WEvoiGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oro
+
+==================================================================
