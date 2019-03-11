@@ -1,5 +1,5 @@
 ---
-baseurl: "http://blog.oro.nu/"
+baseurl: "https://blog.oro.nu/"
 languageCode: en-us
 title: "OroBlog"
 theme: "blackburn"
