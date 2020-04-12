@@ -6,3 +6,11 @@
   for = "/.well-known/matrix/client"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'sha256-fjplNnbssC3UxUKSH9XqMyzBZvvMerMrDP2W7/iNuE8='; object-src 'none'; frame-ancestors 'none'"
