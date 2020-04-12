@@ -14,3 +14,8 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'sha256-fjplNnbssC3UxUKSH9XqMyzBZvvMerMrDP2W7/iNuE8='; object-src 'none'; frame-ancestors 'none'"
+
+[context.production]
+  command = 'hugo --gc --minify -b "${URL}"'
+[context.deploy-preview]
+  command = 'hugo --gc --minify --buildFuture -b "${DEPLOY_PRIME_URL}"'
