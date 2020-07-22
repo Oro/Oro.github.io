@@ -13,7 +13,7 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'none'; script-src 'self' blog.oro.nu; style-src 'self' blog.oro.nu 'sha256-fjplNnbssC3UxUKSH9XqMyzBZvvMerMrDP2W7/iNuE8='; img-src 'self' blog.oro.nu; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; script-src 'self' 'unsafe-eval' blog.oro.nu; style-src 'self' 'unsafe-inline' blog.oro.nu; img-src 'self' blog.oro.nu; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
 
 [context.production]
   command = 'hugo --gc --minify -b "${URL}"'

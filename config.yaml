@@ -16,8 +16,8 @@ server:
       X-XSS-Protection : "1; mode=block"
       X-Content-Type-Options : "nosniff"
       Referrer-Policy : "strict-origin-when-cross-origin"
-      Content-Security-Policy : "default-src 'none'; script-src 'self'
-; style-src 'self' 'sha256-fjplNnbssC3UxUKSH9XqMyzBZvvMerMrDP2W7/iNuE8=';
+      Content-Security-Policy : "default-src 'self'; script-src 'self' 'unsafe-eval'
+; style-src 'self' 'unsafe-inline';
   img-src 'self'; base-uri 'none'; form-action 'none'; connect-src ws://localhost:1313; frame-ancestors 'none'"
 
 markup:
